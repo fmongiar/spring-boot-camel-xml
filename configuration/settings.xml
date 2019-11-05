@@ -66,6 +66,16 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </repository>
+        
+        <repository>
+          <id>fuse-all</id>
+          <name>fusewin fuse-all</name>
+          <url>http://nexus.fuse-qe.eng.rdu2.redhat.com/repository/fuse-all/</url>
+          <layout>default</layout>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository> 
  
       </repositories>
 
@@ -112,6 +122,15 @@
           </releases>
         </pluginRepository>
         
+        <pluginRepository>
+          <id>fuse-all</id>
+          <name>fusewin fuse-all</name>
+          <url>http://nexus.fuse-qe.eng.rdu2.redhat.com/repository/fuse-all/</url>
+          <layout>default</layout>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </pluginRepository>
       </pluginRepositories>
     </profile>
   </profiles>
